@@ -1,0 +1,169 @@
+.perfil_container {
+    width: 349px;
+    height: auto;
+    min-height: 631px;
+    background: #4A3328;
+    display: flex;
+    /* justify-content: center; */
+    flex-direction: column;
+}
+
+.perfil_dados {
+    display: flex;
+    padding: 6px;
+    gap: 16px;
+    align-items: start;
+    margin-bottom: 16px;
+
+}
+
+.tudo {
+    padding: 13px;
+}
+
+.product {
+    margin-left: 39px;
+}
+
+.titulo_producoes {
+    color: #FFEDBF;
+    font-family: Open Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.perfil_localizacao {
+    display: flex;
+}
+
+.subtitulo_producoes {
+    color: #FFEDBF;
+    font-family: Open Sans;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    display: flex;
+    margin-bottom: 9px;
+    gap: 8px;
+}
+
+.titulo_perfil {
+    color: #FFEDBF;
+    font-family: Open Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 9px;
+}
+
+.tudo {}
+
+.img {
+    width: 17px;
+    height: 17px;
+}
+
+.titulo_estoque {
+    color: #FFEDBF;
+    font-family: Open Sans;
+    font-size: 29px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.anuncio {
+    background: #593D29;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    width: 291px;
+    height: 118px;
+}
+
+.container_anuncio {
+    margin-top: 16px;
+    display: flex;
+    justify-content: center;
+}
+
+.alimento_container {
+    display: flex;
+    padding: 12px;
+}
+
+.alimento {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+.edit_foto{
+    position: absolute;
+    top: 190px;
+    right: 230px;
+}
+.alimento_texto {
+    color: #FFEDBF;
+    font-family: Open Sans;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    width: 85px;
+    height: 17px;
+}
+
+.alimento_texto_descricao {
+    color: #FFEDBF;
+    font-family: Open Sans;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-left: 16px;
+}
+
+.botao {
+    color: #FFEDBF;
+    font-family: Open Sans;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    background: #528B30;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    width: 83px;
+    height: 21px;
+    border: none;
+}
+.botao_adicionar {
+    color: #FFEDBF;
+    font-family: Open Sans;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    background: #528B30;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    width:113px;
+    height: 21px;
+    border: none;
+}
+.container_botao {
+    display: flex;
+    justify-content: end;
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+.container_botao_adicionar {
+    display: flex;
+    justify-content: end;
+    /* margin-bottom: px; */
+    margin-top: 10px;
+    margin-right:15px;
+}

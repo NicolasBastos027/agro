@@ -6,7 +6,6 @@ body {
     background-color: var(--cor-fundo);
 }
 
-.titulo {}
 
 .titulo_principal {
     color: #FFEDBF;
@@ -20,7 +19,8 @@ body {
     padding: 16px;
     text-align: center;
 }
-
+.geral{
+}
 .titulo_secundario {
     color: #FFEDBF;
     text-align: center;

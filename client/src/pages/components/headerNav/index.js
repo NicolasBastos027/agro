@@ -1,26 +1,21 @@
-import styles from './style.module.css'
+import styles from './styles.module.css'
 import Logo from '../../../assets/logo.svg'
-import { Link } from 'react-router-dom'
+import { Link, Route } from 'react-router-dom'
+import Register from '../../Register'
 
-export default function HeaderNav() {
+export default function Header() {
     return (
-        <header>
+        <header >
             <div className={styles.geral_header}>
-                <img src={Logo} alt='logo' className={styles.img_logo}></img>
+                <Link to='/'><img src={Logo} className={styles.img_logo}></img></Link>
                 <div className={styles.cadastro}>
-                <Link>Insumos</Link>
-                    <h1 className={styles.separacao}>|</h1>
-                    <Link>Alimentos</Link>
-                    <h1 className={styles.separacao}>|</h1>
-                    <Link>Entrega</Link>
-                    <h1 className={styles.separacao}>|</h1>
-                    <Link>Perfil</Link>
-                    <Link>Login</Link>
-                    <h1 className={styles.separacao}>|</h1>
-                    <Link>Resgistrar</Link>
-
+                    <Link className={styles.link} to='/login' >Insumos</Link>
+                    <Link className={styles.link} to='/login' >Alimentos</Link>
+                    <Link className={styles.link} to='/register'>Entrega</Link>
+                    <Link className={styles.link} to='/perfil_cliente' >Perfil</Link>
                 </div>
             </div>
         </header>
+
     )
 }

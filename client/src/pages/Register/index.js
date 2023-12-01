@@ -5,6 +5,7 @@ import HeaderCadastro from '../components/header_cadastro'
 import maps from '../../assets/maps.svg'
 
 import BotaoConfirmar from '../components/BotaoConfirmar'
+import { Link } from 'react-router-dom'
 
 export default function Register() {
     return (
@@ -14,7 +15,7 @@ export default function Register() {
                 {/* geral */}
                 <div  >
                     {/* titulos  */}
-                    <div>
+                    <div className={styles.titulo}>
                         <h1 className={styles.titulo_principal}>Cadastro</h1>
                     </div>
                     <div className={styles.geral}>
@@ -26,7 +27,7 @@ export default function Register() {
                             <input className={styles.container} type='text' placeholder='Confirme sua senha...'></input>
                     </div>
                     <div>
-                        <h1 className={styles.verifica_cadastro}>Já está cadastrado? Clique aqui</h1>
+                    <Link to='/login'> <h1 className={styles.verifica_cadastro}>Já está cadastrado? Clique aqui</h1></Link>
                     </div>
                     <div>
                         <BotaoConfirmar></BotaoConfirmar>
