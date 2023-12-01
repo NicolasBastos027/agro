@@ -22,7 +22,11 @@ export default function Register() {
                             <input className={styles.container} type='text' placeholder='Insira seu nome...'></input>
                             <input className={styles.container} type='date'></input>
                             <img className={styles.maps} src={maps} type='text'></img>
-                            <select className={styles.container} type='text' placeholder='Selecione'></select>
+                            <select className={styles.container} type='text' placeholder='Selecione'>
+                            <option value="opcao1">Selecione</option>
+                            <option value="opcao1">Consumidor</option>
+                            <option value="opcao1">Produtor</option>
+                            </select>
                             <input className={styles.container} type='text' placeholder='Insira sua senha...'></input>
                             <input className={styles.container} type='text' placeholder='Confirme sua senha...'></input>
                     </div>

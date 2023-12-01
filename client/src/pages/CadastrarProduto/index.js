@@ -30,8 +30,19 @@ export default function CadastrarProduto() {
                             <div className={styles.geral}>
                                 <select className={styles.container} options={options} placeholder='Insira seu nome...'>
                                     <option value="opcao1">Selecione o produto</option>
-                                    <option value="opcao2">Batata</option>
-                                    <option value="opcao3">Cenoura</option>
+                                    <option value="opcao2">Algodão</option>
+                                    <option value="opcao3">Alho</option>
+                                    <option value="opcao3">Batata</option>
+                                    <option value="opcao3">Café</option>
+                                    <option value="opcao3">Cana-de-açúcar</option>
+                                    <option value="opcao3">Citrus</option>
+                                    <option value="opcao3">Feijão</option>
+                                    <option value="opcao3">Girassol</option>
+                                    <option value="opcao3">Laranja</option>
+                                    <option value="opcao3">Leite</option>
+                                    <option value="opcao3">Milho</option>
+                                    <option value="opcao3">Tomate</option>
+                                    <option value="opcao3">Trigo</option>
                                 </select>
                                 <select className={styles.container} options={options} >
                                     <option value="opcao1">Quantidade de produto</option>
@@ -52,7 +63,7 @@ export default function CadastrarProduto() {
                                 <input className={styles.container} type="text" placeholder="Digite o preço por quilo "></input>
                             </div>
                             <div>
-                            <button className={styles.container} type="text" placeholder="Digite o preço por quilo ">Cadastrar</button>
+                            <button className={styles.btnCadastrar} type="text" placeholder="Digite o preço por quilo ">Cadastrar</button>
                             </div>
 
                         </div>
