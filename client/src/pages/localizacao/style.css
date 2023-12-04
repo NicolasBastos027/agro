@@ -1,0 +1,27 @@
+.titulo {
+    color:  red;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container_busca_fornecedor {
+    display: flex;
+    flex-direction: row;
+}
+
+.input_busca {
+    display: flex;
+    padding: 10px;
+    border-radius: 12px;
+    background: #4A3328;
+    border: none;
+}
+
+.input_busca::placeholder {
+    color: #FFEDBF;
+    font-weight: 600px;
+}

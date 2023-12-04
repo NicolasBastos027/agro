@@ -1,0 +1,45 @@
+/*! Nos arquivos de estilo não utilizem pont e vírgula [ ; ] após os bigodes [ {} ], pois isso quebra a continuidade deles; */
+
+.App {
+  text-align: center;
+}
+@keyframes colorir {
+  0% {
+    color: rebeccapurple;
+  }
+  25% {
+    color: royalblue;
+  }
+  50% {
+    color: teal;
+  }
+  75% {
+    color: royalblue;
+  }
+  100% {
+    color: rebeccapurple;
+  }
+}
+
+.Api_mensagem {
+  position: absolute;
+  bottom: 5px;
+  font-size: 50px;
+  font-weight: 600;
+  animation: colorir 3s infinite linear; 
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}

@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin-top: 30%;
+    background-color: #346229;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.8rem;
+}
+
+.titulo_produtos {
+    color: #FFEDBF;
+    margin-top: 20%;
+    font-size: 1.5rem;
+}
+
+.barra_de_pesquisa {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 6%;
+}
+
+.input_pesquisa {
+    background-color: #4A3328;
+    color: #FFEDBF;
+    border-radius: 10px 0 0 10px;
+    border-right: solid 1px #FFEDBF;
+    border-left: none;
+    border-bottom: none;
+    border-top: none;
+    height: 2rem;
+    padding: 10px;
+}
+
+.input_pesquisa::placeholder{
+    color: #FFEDBF;
+}
+
+.btn_pesquisa {
+    background-color: #4A3328;
+    border: none;
+    border-radius: 0 10px 10px 0;
+    padding: 0 1% ;
+}
+
+.resultado_pesquisa {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+
+}
+
+.container_produto {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    padding: 3%;
+    border-radius: 5px;
+    color: #FFEDBF;
+    background-color: #4A3328;
+    align-items: flex-start;
+    margin: 5% 0 5% 0;
+}
+
+.inf_alimento {
+    display: flex;
+}
+
+.telefone_localizacao {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin: 1% 0 1% 28%;
+}
